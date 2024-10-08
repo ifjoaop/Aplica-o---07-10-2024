@@ -1,0 +1,59 @@
+.marvel-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-box {
+    margin-bottom: 20px;
+  }
+  
+  .search-box input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .search-box button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #e62429;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-box button:hover {
+    background-color: #c61921;
+  }
+  
+  .characters-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .character-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .character-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .character-card h3 {
+    margin: 10px 0 5px 0;
+  }
+  
+  .character-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
